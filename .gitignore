@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+backend/venv/
+venv/
+
+# Production build outputs
+dist/
+dist-ssr/
+*.local
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+venv/
+__pycache__/
+*.pyc
+node_modules/
+dist/
